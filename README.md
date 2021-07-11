@@ -17,7 +17,7 @@
 - F1 score : 0.7660
 - 최종 순위 : **6 / 200**
 - 총 제출횟수 : 63회
-
+</br></br>
 
 # 2. Work Flow
 ### Day01                                    (67.98%, 0.53) : accuracy, f1 score
@@ -80,13 +80,13 @@
 - Loss 재정의 : F1 Loss * 0.4 + Focal Loss * 0.6
 - Hard voting, Soft voting 앙상블
 
-
+</br></br>
 # 3. Final Submission
 - Architecture : backbone(torchvision.models.resnext50_32x4d) + Linear(128) + classifier
 - Augmentation : Brightness, CenterCrop
 - LossFunction : F1Loss0.4 + FocalLoss0.6
 - etc) RandomWeightedSampler, WeightedLoss, Improving Label at Train Time(Age 60→58)
-
+</br></br></br>
 # 4. Experiments
 ### CenterCrop(400,200)
 
