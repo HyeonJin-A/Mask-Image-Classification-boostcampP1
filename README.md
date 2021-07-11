@@ -19,7 +19,7 @@
 - 총 제출횟수 : 63회
 </br></br>
 
-# 2. Work Flow
+# 2. Work Flow 🏃
 ### Day01                                    (67.98%, 0.53) : accuracy, f1 score
 
 - baseline 코드 작성 및 제출
@@ -81,13 +81,14 @@
 - Hard voting, Soft voting 앙상블
 
 </br></br>
-# 3. Final Submission
+# 3. Final Submission :triangular_flag_on_post:
 - Architecture : backbone(torchvision.models.resnext50_32x4d) + Linear(128) + classifier
 - Augmentation : Brightness, CenterCrop
 - LossFunction : F1Loss0.4 + FocalLoss0.6
 - etc) RandomWeightedSampler, WeightedLoss, Improving Label at Train Time(Age 60→58)
 </br></br></br>
-# 4. Experiments
+
+# 4. Experiments :chart_with_upwards_trend:
 ### CenterCrop(400,200)
 
 이미지를 원본(384x512) 그대로 사용했을 때 마스크 착용여부는 99% 수준의 성능으로 매우 잘 구분하지만,</br>
